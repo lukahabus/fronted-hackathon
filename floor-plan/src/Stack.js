@@ -15,12 +15,12 @@ const Item = styled(Paper)(({ theme }) => ({
 export default function BasicStack() {
   return (
     <Box sx={{direction: "column",alignItems: "center", justifyContent: "center"}}>
-      <Stack spacing={2} style = {{width: 250}}>
-        <Item>Item 1</Item>
-        <Item>Item 2</Item>
-        <Item>Item 3</Item>
-        <Item>Item 4</Item>
-        <Item>Item 5</Item>
+      <Stack spacing={10} style = {{width: 250, }}>
+        <Item>Floor 1</Item>
+        <Item>Floor 2</Item>
+        <Item>Floor 3</Item>
+        <Item>Floor 4</Item>
+        <Item>Floor 5</Item>
       </Stack>
     </Box>
   );
