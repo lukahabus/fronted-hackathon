@@ -27,23 +27,4 @@ function App() {
   );
 }
 
-<<<<<<< Updated upstream
-class App extends Component {
-  
-
-  render() {
-    return ( 
-      <div>
-        
-        <Building />
-      </div>
-        
-      
-    )
-  }
-}
-const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);
-=======
->>>>>>> Stashed changes
 export default App;
