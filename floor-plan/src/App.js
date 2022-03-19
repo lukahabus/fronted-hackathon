@@ -30,6 +30,7 @@ function App() {
   );
 }
 
+<<<<<<< Updated upstream
 class App extends Component {
   
 
@@ -46,4 +47,6 @@ class App extends Component {
 }
 const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
+=======
+>>>>>>> Stashed changes
 export default App;
