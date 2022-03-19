@@ -1,8 +1,5 @@
-import logo from './logo.svg';
 import './App.css';
-import StackBuild from './Stack.js';
 import * as React from 'react';
-import Grid from '@mui/material/Grid';
 import buildingBG from './resources/img/office-building-45.png';
 import { goToGroundFloor, goToFloor1, goToFloor2, goToFloor3, goToFloor4} from './resources/functions/buildingClickerFunction';
 
