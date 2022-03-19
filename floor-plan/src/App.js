@@ -9,14 +9,15 @@ function App() {
     <div className = "App">
       <img src={buildingBG} alt = "Zamisli zgradu" className = "Building" useMap = "#workmap"/>
       <map name="workmap">
-        <area target="" alt="GroundFloor" title="GroundFloor"  coords="565,1560,565,1778,1385,2113,1389,1888" shape="poly" onClick={() => goToGroundFloor()}/>
-        <area target="" alt="GroundFloor" title="GroundFloor"  coords="1389,2120,1391,1893,2050,1448,2048,1669" shape="poly" onClick={() => goToGroundFloor()}/>
-        <area target="" alt="Floor1" title="Floor1"  coords="1393,1770,1580,1651,2056,1335,2056,1155,1393,1532,572,1270,572,1460" shape="poly" onClick={() => goToFloor1()}/>
-        <area target="" alt="Floor2" title="Floor2"  coords="569,1163,567,970,1393,1207,1393,1423,2056,1063,2054,868,1396,1211,1393,1425" shape="poly" onClick={() => goToFloor2()}/>
-        <area target="" alt="Floor3" title="Floor3"  coords="569,644,1391,858,1387,1100,567,871" shape="poly" onClick={() => goToFloor3()}/>
-        <area target="" alt="Floor3" title="Floor3"  coords="1389,865,1389,1108,2054,769,2054,566" shape="poly" onClick={() => goToFloor3()}/>
-        <area target="" alt="Floor4" title="Floor4"  coords="569,347,572,541,1393,764,1393,537" shape="poly" onClick={() => goToFloor4()}/>
-        <area target="" alt="Floor4" title="Floor4"  coords="2048,255,2050,473,1396,767,1393,538" shape="poly" onClick={() => goToFloor4()}/>
+        <area target="" alt="GroundFloor" title="GroundFloor"  coords="625,957,923,746,920,649,627,837,624,956,255,799,253,699,626,839,625,957" shape="poly" onClick={() => goToGroundFloor()}/>
+        <area target="" alt="Floor1" title="Floor1"  coords="255,571,627,689,627,794,257,658" shape="poly" onClick={() => goToFloor1()}/>
+        <area target="" alt="Floor1" title="Floor1"  coords="926,602,924,519,626,691,627,795" shape="poly" onClick={() => goToFloor1()}/>
+        <area target="" alt="Floor2" title="Floor2"  coords="628,644,624,544,923,389,927,475" shape="poly" onClick={() => goToFloor2()}/>
+        <area target="" alt="Floor2" title="Floor2"  coords="255,437,256,526,627,642,628,546" shape="poly" onClick={() => goToFloor2()}/>
+        <area target="" alt="Floor3" title="Floor3"  coords="255,291,255,390,627,494,627,387" shape="poly" onClick={() => goToFloor3()}/>
+        <area target="" alt="Floor3" title="Floor3"  coords="627,387,923,255,925,347,627,497" shape="poly" onClick={() => goToFloor3()}/>
+        <area target="" alt="Floor4" title="Floor4"  coords="922,114,927,212,626,348,626,243" shape="poly" onClick={() => goToFloor4()}/>
+        <area target="" alt="Floor4" title="Floor4"  coords="256,156,255,245,627,346,627,241" shape="poly" onClick={() => goToFloor4()}/>
       </map>
       <div className = "Container">
         <div className='ContainerInner'>
